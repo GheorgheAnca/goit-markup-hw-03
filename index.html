@@ -23,163 +23,178 @@
 
   <!--Top-line-section  -->
   <body>
-    <header>
-      <h3 class="logo">
-        <span class="first-child"> Web </span>
-        <span class="last-child">Studio </span>
-      </h3>
-      <nav class="nav-link">
-        <a class="link" href="./index.html">Studio</a>
-        <a class="link" href="./portofolio.html">Portofolio</a>
-        <a class="link" href="#">Contacts</a>
-
-        <a class="link" href="#">info@devstudio.com</a>
-        <a class="link" href="+1212-772-4150"> +1 212-772-4150 </a>
-      </nav>
-    </header>
+    <div class="container">
+      <header class="page-header">
+        <h3 class="logo">
+          <span class="first-child"> Web </span>
+          <span class="last-child">Studio </span>
+        </h3>
+        <nav class="nav-link">
+          <a class="link studio" href="index.html">Studio</a>
+          <a class="link portfolio" href="portofolio.html">Portofolio</a>
+          <a class="link contacts" href="#">Contacts</a>
+          <a class="contact-link email" href="#">info@devstudio.com</a>
+          <a class="contact-link phone" href="+1212-772-4150">
+            +1 212-772-4150
+          </a>
+        </nav>
+      </header>
+    </div>
 
     <main>
-      <section class="content-box">
-        <h1 id="title" style="color: rgba(255, 255, 255, 1)">
-          EFFECTIVE SOLUTIONS FOR YOUR BUSINESS
-        </h1>
-        <button
-          type="button"
-          class="button-service"
-          style="color: rgba(33, 33, 33, 1)"
-        >
-          Request our service
-        </button>
-      </section>
+      <div class="container">
+        <section class="content-box">
+          <h1 id="title" style="color: rgba(255, 255, 255, 1)" class="content">
+            EFFECTIVE SOLUTIONS FOR YOUR BUSINESS
+          </h1>
+          <button
+            type="button"
+            class="button-service"
+            style="color: rgba(33, 33, 33, 1)"
+          >
+            Request our service
+          </button>
+        </section>
+      </div>
 
       <!-- What-we-do-Section -->
-      <section>
-        <ul class="about-us">
-          <li>
-            <h3 class="list-title">ATTENTION TO DETAILS</h3>
-            <p class="text">
-              We go into all the details and processes of your business to
-              develop a customized solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="list-title">PUNCTUALITY</h3>
-            <p class="text">
-              With us, you can feel safe and secure. An important principle of
-              the company: respect your time and deadlines.
-            </p>
-          </li>
-          <li>
-            <h3 class="list-title">PLANNING</h3>
-            <p class="text">
-              You will be able to observe and participate in every phase of
-              solution development and implementation.
-            </p>
-          </li>
-          <li>
-            <h3 class="list-title">MODERN TECHNOLOGIES</h3>
-            <p class="text">
-              We use innovative tools to solve assigned tasks. It's time to
-              simplify work processes.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2 class="subtitle">What we do</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/box.1.jpg"
-              alt="programmer"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              class="images"
-              src="./images/box.2.jpg"
-              alt="mobile application"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              class="images"
-              src="./images/box.3.jpg"
-              alt="color palette"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
-      </section>
+
+      <div class="container">
+        <section>
+          <ul class="about-us-container">
+            <li class="item">
+              <h3 class="list-title">ATTENTION TO DETAILS</h3>
+              <p class="text">
+                We go into all the details and processes of your business to
+                develop a customized solution.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="list-title">PUNCTUALITY</h3>
+              <p class="text">
+                With us, you can feel safe and secure. An important principle of
+                the company: respect your time and deadlines.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="list-title">PLANNING</h3>
+              <p class="text">
+                You will be able to observe and participate in every phase of
+                solution development and implementation.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="list-title">MODERN TECHNOLOGIES</h3>
+              <p class="text">
+                We use innovative tools to solve assigned tasks. It's time to
+                simplify work processes.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="container">
+        <section>
+          <h2 class="subtitle">What we do</h2>
+          <ul class="group-box">
+            <li>
+              <img
+                src="images/box.1.jpg"
+                alt="programmer"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                class="images"
+                src="images/box.2.jpg"
+                alt="mobile application"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                class="images"
+                src="images/box.3.jpg"
+                alt="color palette"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </section>
+      </div>
 
       <!-- Our team section  -->
 
-      <section>
-        <h2 class="subtitle">Our Team</h2>
-        <ul>
-          <li>
-            <img
-              class="images"
-              src="./images/christopher.jpg"
-              alt="man With glasses"
-              width="270"
-              height="260"
-            />
-            <h3 class="list-title">Christopher Walker</h3>
-            <p class="text">Product Designer</p>
-          </li>
-          <li>
-            <img
-              class="images"
-              src="./images/kylie.jpg"
-              alt="woman With glasses"
-              width="270"
-              height="260"
-            />
-            <h3 class="list-title">Kylie Evans</h3>
-            <p class="text">Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              class="images"
-              src="./images/ryan.jpg"
-              alt="man with blue shirt"
-              width="270"
-              height="260"
-            />
-            <h3 class="list-title">Ryan Harris</h3>
-            <p class="text">Marketing</p>
-          </li>
-          <li>
-            <img
-              class="images"
-              src="./images/tyler.jpg"
-              alt="man with black t-shirt"
-              width="270"
-              height="260"
-            />
-            <h3 class="list-title">Tyler Moore</h3>
-            <p class="text">UI Designer</p>
-          </li>
-        </ul>
-      </section>
+      <div class="container">
+        <section class="content-container">
+          <h2 class="subtitle-2">Our Team</h2>
+          <ul class="group-team">
+            <li class="card-bg">
+              <img
+                class="images"
+                src="images/christopher.jpg"
+                alt="man With glasses"
+                width="270"
+                height="260"
+              />
+              <h3 class="list-title">Christopher Walker</h3>
+              <p class="text">Product Designer</p>
+            </li>
+            <li class="card-bg">
+              <img
+                class="images"
+                src="images/kylie.jpg"
+                alt="woman With glasses"
+                width="270"
+                height="260"
+              />
+              <h3 class="list-title">Kylie Evans</h3>
+              <p class="text">Frontend Developer</p>
+            </li>
+            <li class="card-bg">
+              <img
+                class="images"
+                src="images/ryan.jpg"
+                alt="man with blue shirt"
+                width="270"
+                height="260"
+              />
+              <h3 class="list-title">Ryan Harris</h3>
+              <p class="text">Marketing</p>
+            </li>
+            <li class="card-bg">
+              <img
+                class="images"
+                src="images/tyler.jpg"
+                alt="man with black t-shirt"
+                width="270"
+                height="260"
+              />
+              <h3 class="list-title">Tyler Moore</h3>
+              <p class="text">UI Designer</p>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
 
     <!-- Footer section -->
-
-    <footer class="footer">
-      <h3 class="logo-footer">
-        <span class="web" style="color: rgba(33, 150, 243, 1)">Web</span>
-        <span class="studio" style="color: rgba(255, 255, 255, 1)">Studio</span>
-      </h3>
-      <address class="info">695 Park Ave, NY 10065, USA</address>
-      <a class="info" href="info@devstudio.com">info@devstudio.com</a>
-      <a class="info" href="+1212-772-4150">+1 212-772-4150</a>
-    </footer>
+    <div class="container">
+      <footer class="footer">
+        <h3 class="logo-footer">
+          <span class="web" style="color: rgba(33, 150, 243, 1)">Web</span>
+          <span class="studio" style="color: rgba(255, 255, 255, 1)"
+            >Studio</span
+          >
+        </h3>
+        <address class="info">695 Park Ave, NY 10065, USA</address>
+        <a class="info" href="info@devstudio.com">info@devstudio.com</a>
+        <a class="info" href="+1212-772-4150">+1 212-772-4150</a>
+      </footer>
+    </div>
   </body>
 </html>
