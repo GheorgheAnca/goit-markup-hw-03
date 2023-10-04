@@ -71,14 +71,14 @@ span:last-child {
         border-radius: 4px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;      
+        justify-content:flex-start;      
 }
 .link{
-    display: block;
+    display: flex;
     padding: 10px;
     border-radius: 4px;
     text-decoration: none;
-    justify-content: space-between ;
+    justify-content:center ;
 }
 .studio{
     margin-left: 153px;
@@ -105,10 +105,12 @@ span:last-child {
 .email{
     height: 16px ;
     margin-top: 19px ;
+    align-self: last baseline;
 }
 .phone{
     height: 16px ;
     margin-top: 19px ;
+    align-self: flex-end;
 }
 .link, .contact-link {
     color: rgba(33, 33, 33, 1);
@@ -381,7 +383,6 @@ h3 {
         font-weight: 400;
         line-height: normal;
         letter-spacing: 0.42px;
-        padding: 30px;
         text-align: center;
         align-self: flex-start;
     }
