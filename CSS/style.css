@@ -264,12 +264,7 @@ li {
         flex-wrap: wrap;
         gap: 30px;
         padding: 0px;
-        box-sizing: border-box;
-        margin-top: 0%;
-        margin-bottom: 0%;
-        margin-left: auto;
-        margin-right: auto;
-
+        justify-content: center;
 }
 .item{
     flex-basis: calc((100% - 70px) / 5);
@@ -337,11 +332,7 @@ h3 {
     flex-wrap: wrap;
     gap: 30px;
     flex-basis: calc((100% - 10px) / 3);
-    margin-top: 0%;
-    margin-bottom: 94px;
-    margin-left: 200px;
-    margin-right: -215px; 
-    box-sizing: border-box;
+    justify-content: center;
 }
 .content-container{
     background-color: rgba(245, 244, 250, 1);
@@ -355,11 +346,8 @@ h3 {
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
-        flex-basis: calc((100% - 10px) / 4);
-        margin-top: 0%;
-        margin-bottom: 50px;
-        margin-left: 200px;
-        margin-right: -215px;
+        flex-basis: calc((100% - 40px) / 4);
+        justify-content: center;
     
     }
     .card-bg{
