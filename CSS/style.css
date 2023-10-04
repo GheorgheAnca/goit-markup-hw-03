@@ -77,7 +77,6 @@ span:last-child {
     padding: 10px;
     border-radius: 4px;
     text-decoration: none;
-    justify-content:center ;
 }
 .studio{
     margin-left: 153px;
@@ -104,12 +103,10 @@ span:last-child {
 .email{
     height: 16px ;
     margin-top: 19px ;
-    align-self: last baseline;
 }
 .phone{
     height: 16px ;
     margin-top: 19px ;
-    align-self: flex-end;
 }
 .link, .contact-link {
     color: rgba(33, 33, 33, 1);
@@ -357,7 +354,7 @@ h3 {
 
 .footer {
     background-color:  rgba(47, 48, 58, 1);
-    display: flex;
+    display: block;
     flex-direction: column;
     height: 200px;
     box-sizing: content-box;
