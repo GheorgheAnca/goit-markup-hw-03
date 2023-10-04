@@ -34,7 +34,6 @@ body {
             width: 100%;
             height: 31px;
             margin-top: 24px;
-            margin-left: 150px; 
             display: flex;
             flex-direction: row;
             align-self: flex-start;
@@ -69,7 +68,9 @@ span:last-child {
         padding: 14px 16px;
         border-radius: 4px;
         display: block;
-        float: left;     
+        flex-direction: row;
+        flex-basis: auto;
+
 }
 .link{
     display: flex;
@@ -360,10 +361,8 @@ h3 {
     flex-direction: column;
     height: 200px;
     box-sizing: content-box;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     text-align: center;
+    padding: 20px;
 }
 .logo-footer {
         font-family: Raleway;
