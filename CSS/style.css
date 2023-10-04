@@ -66,12 +66,10 @@ span:last-child {
         font-size: 14px;
         font-weight: 500;
         letter-spacing: 0.02em;
-        padding: 10px;
-        list-style: none;
+        padding: 14px 16px;
         border-radius: 4px;
-        display: flex;
-        flex-direction: row;
-        justify-content:flex-start;      
+        display: block;
+        float: left;     
 }
 .link{
     display: flex;
@@ -358,12 +356,14 @@ h3 {
 
 .footer {
     background-color:  rgba(47, 48, 58, 1);
-    margin-top: 0%;
     display: flex;
     flex-direction: column;
     height: 200px;
     box-sizing: content-box;
-
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 .logo-footer {
         font-family: Raleway;
@@ -372,7 +372,6 @@ h3 {
         font-weight: 700;
         line-height: normal;
         letter-spacing: 0.78px;
-        margin-left:250px ;
 }
 
 .info {
@@ -384,6 +383,5 @@ h3 {
         line-height: normal;
         letter-spacing: 0.42px;
         text-align: center;
-        align-self: flex-start;
     }
 
