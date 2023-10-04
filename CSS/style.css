@@ -168,7 +168,8 @@ h1 {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 94px;
+        align-self: center;
+        gap: 10px;
 
 }
 .button-service-p{
@@ -178,9 +179,7 @@ h1 {
         background-color: rgba(245, 244, 250, 1);
         display: flex;
         justify-content: center;
-        flex-direction: row;
-        align-self: center;
-        gap: 30px;
+        
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
         box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
         box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
