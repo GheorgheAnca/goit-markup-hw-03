@@ -13,54 +13,58 @@ body {
     }
 
 .section {
-        padding-top: 94px;
-        padding-bottom: 94px;
+        padding: 94px;
 }
 .page-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px;
-            box-sizing: content-box;
-            flex-direction: row;
-            height: 50px;
-        }
-.logo{
-        font-family: Raleway;
-            font-size: 26px;
-            font-weight: 700;
-            line-height: 31px;
-            letter-spacing: 0.03em;
-            width: 100%;
-            height: 31px;
-            margin-top: 24px;
-            display: flex;
-            flex-direction: row;
-            align-self: flex-start;
+        display: flex;
+        padding: 10px;
+        box-sizing: content-box;
+        flex-direction: row;
+        height: 50px;
+        padding-right: 50px;
+        padding-left: 50px;
 }
-span:first-child {
-    color: rgba(33, 150, 243, 1);
-    font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;
-    text-transform: none;
-}
-span:last-child {
-    color: rgb(0, 0, 0);
-    margin-left: -3px;
-    font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;
-    text-transform: none;
+.container-1{
+        max-width: 1600px;
 }
 
-.nav-link  {
+span:first-child {
+        color: rgba(33, 150, 243, 1);
+        font-family: Raleway;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.78px;
+        text-transform: none;
+}
+span:last-child {
+        color: rgb(0, 0, 0);
+        margin-left: -3px;
+        font-family: Raleway;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.78px;
+        text-transform: none;
+}
+
+.logo {
+        font-family: Raleway;
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        margin-left: -20px;
+        align-self: center;
+        height: auto;
+        justify-content: center;
+}
+
+.nav-link {
         font-family: Roboto;
         font-size: 14px;
         font-weight: 500;
@@ -68,57 +72,77 @@ span:last-child {
         padding: 14px 16px;
         border-radius: 4px;
         display: flex;
-        flex-direction: row;
-        flex-basis: auto;
-
-}
+        width: 100%;
+        justify-content: center;
+        margin-left: 170px;
+        margin-top: -80px;
+    }
 .link{
-    display: flex;
-    padding: 10px;
-    border-radius: 4px;
-    text-decoration: none;
-    justify-content: space-between;
+        display: flex;
+        padding: 10px;
+        box-sizing: content-box;
+        flex-direction: row;
+        height: 50px;
+        text-decoration-line: none;
+            
+    }
+
+.contact {
+        display: flex;
+        align-items: flex-start;
+        align-self: flex-start;
+        padding: 10px;
+        flex-direction: row-reverse;
+        height: 50px;
+        margin-right: -780px;
+        margin-top: -115px;
+        text-decoration-line:none;
+    }
+
+.link, .contact{
+        color: rgba(33, 33, 33, 1);
 }
+
+li {
+        list-style-type: none;
+}
+
 .studio{
-    margin-left: 153px;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-    height: 16px ;
-    margin-top: 15px ;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.28px;
+        padding: 14px 16px;
+
+   
 }
 
 .portfolio{
-    height :16px;
-    margin-top: 15px;
+        height :16px;
 }
 
 
 .contacts{
-    Height :16px;
-    margin-top: 15px;
+        Height :16px;
+    
 }
 .email{
-    height: 16px ;
-    margin-top: 19px ;
+        height: 16px ;
+    
 }
 .phone{
-    height: 16px ;
-    margin-top: 19px ;
+        height: 16px ;
+   
 }
-.link, .contact-link {
-    color: rgba(33, 33, 33, 1);
+.link, .contact {
+        color: rgba(33, 33, 33, 1);
 }
-.link:hover, .link:focus , .contact-link:hover, .contact-link:focus  {
-    color: rgba(33, 150, 243, 1);
+.link:hover, .link:focus , .contact:hover, .contact:focus  {
+        color: rgba(33, 150, 243, 1);
 }
 
-.current {
-    color: var(rgba(128, 64, 66, 0.653));
-}
 
 
 
@@ -133,21 +157,24 @@ h1 {
         line-height: 60px;
         letter-spacing: 2.64px;
         text-transform: uppercase;
-        display: block;
+        display: flex;
+        justify-content: center;
+        width: 600px;
+        padding-left: 260px;
+        margin-top: -100px;
 }
 
 
 .content-box {
         background: rgba(47, 48, 58, 1);
         text-align: center;
-        height: 250px;
+        height: 10px;
         box-sizing: content-box;
         padding: 200px 80px;
-
+        
     }
 .button-service {
         border-radius: 4px;
-        box-shadow: 0px 4px 4px 0px;
         background-color: rgba(33, 150, 243, 1);
         color: rgba(255, 255, 255, 1);
         width: 200px;
@@ -178,80 +205,75 @@ h1 {
         background-color: rgba(245, 244, 250, 1);
         display: flex;
         justify-content: center;
-        
-        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
-        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+        min-width: 100px;
         box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
         border: none;
+        text-align: center;
 
 }
 
 .button-service-p:hover, .button-service-p:focus {
-    background-color: rgba(33, 150, 243, 1);
-    color: rgba(255, 255, 255, 1);
-    cursor: pointer;
+        background-color: rgba(33, 150, 243, 1);
+        color: rgba(255, 255, 255, 1);
+        cursor: pointer;
 }
 .frame {
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
    
     
 }
 .card-set {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    flex-basis: calc((100% - 30px) / 3);
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        flex-basis: calc((100% - 30px) / 3);
 }
 .item-p{
-    height: 404px ;
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-    background-color: rgba(255, 255, 255, 1);
-    border: 1px ;
+        height: 404px ;
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+        background-color: rgba(255, 255, 255, 1);
+        border: 1px ;
 }
 
 .description{
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0.06em;
-    text-align: left;
-    text-transform: none;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.06em;
+        text-align: left;
+        text-transform: none;
 }
 
 .text-p {
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    margin-top: -10px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        margin-top: -10px;
 }
 
 
 /* what-we-do-section */
 
-li {
-    list-style-type: none;
-}
+
 .about-us-container {
         display: flex;
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 50px;
         padding: 0px;
         justify-content: center;
-}
+        align-items: flex-start;
+}       
 .item{
-    flex-basis: calc((100% - 70px) / 5);
-    box-sizing: border-box;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: auto;
+        flex-basis: calc((100% - 70px) / 5);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 }
 h3 {
     color: #212121;
@@ -305,17 +327,17 @@ h3 {
         letter-spacing: 0.48px;
 }
 .group-box{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    flex-basis: calc((100% - 10px) / 3);
-    justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        flex-basis: calc((100% - 10px) / 3);
+        justify-content: center;
 }
 .content-container{
-    background-color: rgba(245, 244, 250, 1);
-    Height: 608px;
-    display: block;
-    box-sizing: border-box;
+        background-color: rgba(245, 244, 250, 1);
+        Height: 608px;
+        display: block;
+        box-sizing: border-box;
 }
 .group-team{
         display: flex;
@@ -332,17 +354,17 @@ h3 {
         background-color: rgba(255, 255, 255, 1);
     }
 .list-title {
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-    text-align: center;
-    text-transform: none; 
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        text-transform: none; 
 }
 
 .description {
-    color: #212121;
+        color: #212121;
         font-family: Roboto;
         font-size: 18px;
         font-style: normal;
@@ -354,13 +376,13 @@ h3 {
 /* footer-section */
 
 .footer {
-    background-color:  rgba(47, 48, 58, 1);
-    display: block;
+        background-color:  rgba(47, 48, 58, 1);
+        display: flex;
+        justify-content: start;
+        height: 200px;
+        box-sizing: content-box;
     flex-direction: column;
-    height: 200px;
-    box-sizing: content-box;
-    text-align: center;
-    padding: 20px;
+    padding-left: 50px;
 }
 .logo-footer {
         font-family: Raleway;
@@ -368,7 +390,8 @@ h3 {
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        letter-spacing: 0.78px;
+        letter-spacing: 0.58px;
+       
 }
 
 .info {
@@ -379,6 +402,5 @@ h3 {
         font-weight: 400;
         line-height: normal;
         letter-spacing: 0.42px;
-        text-align: center;
     }
 
