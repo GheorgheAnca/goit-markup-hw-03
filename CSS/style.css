@@ -19,13 +19,14 @@ body {
         display: flex;
         padding: 10px;
         box-sizing: content-box;
-        flex-direction: row;
+        align-items: center;
+        justify-content: center;
         height: 50px;
         padding-right: 50px;
         padding-left: 50px;
 }
 .container-1{
-        max-width: 1600px;
+        max-width: 1400px;
         display: flex;
         width: 100%;
         align-items: center;
@@ -77,6 +78,8 @@ span:last-child {
         width: 100%;
         justify-content: center;
         align-items: center;
+        gap: 60px;
+
     }
 
 .link{
@@ -90,8 +93,9 @@ span:last-child {
 .contact {
         display: flex;
         padding: 10px;
-        flex-direction: row-reverse;
         text-decoration-line:none;
+        min-width: 30%;
+        justify-content: space-evenly;
     }
 
 ul{
@@ -103,45 +107,41 @@ ul{
         padding-inline-start: 40px;
 }
 
-.link, .contact{
-        color: rgba(33,33,33,1);
-}
+
 
 li {
         list-style-type: none;
 }
 
 .current {
-        color: rgba(33, 150, 243, 1);
+        color: rgba(33, 150, 243, 1 ) !important;
 }
-
-.studio{
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        letter-spacing: 0.28px;
-        padding: 14px 16px;
-
-   
-}
-
-.portfolio{
-        height :16px;
-}
-
-
-.contacts{
-        Height :16px;
     
+.navigation-link{
+        font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 0.28px;
+                padding: 14px 16px;
+                text-decoration: none;
+                color:rgba(33, 33, 33, 1)
+
 }
+
+.navigation-link:hover {
+        color:rgba(33, 150, 243, 1);
+}
+
 .email{
         height: 16px ;
+     
     
 }
 .phone{
         height: 16px ;
+        
    
 }
 .link, .contact {
@@ -168,14 +168,14 @@ h1 {
         display: flex;
         justify-content: center;
         width: 600px;
-        padding-left: 260px;
+      
 }
 
 
 .content-box {
         background: rgba(47, 48, 58, 1);
         text-align: center;
-        height: 600px;
+        height: 400px;
         box-sizing: content-box;
         display: flex;
         flex-direction: column;
@@ -220,6 +220,7 @@ h1 {
         box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
         border: none;
         text-align: center;
+        align-items: center;
 
 }
 
@@ -239,7 +240,6 @@ h1 {
         justify-content: center;
         flex-wrap: wrap;
         gap: 30px;
-        flex-basis: calc((100% - 30px) / 3);
 }
 .item-p{
         height: 404px ;
@@ -413,5 +413,7 @@ h3 {
         font-weight: 400;
         line-height: normal;
         letter-spacing: 0.42px;
+        text-decoration: none;
+        margin-top: 10px;
     }
 
